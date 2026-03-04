@@ -73,3 +73,54 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 Temp/
+# Bỏ qua các thư mục hệ thống và cache
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# Visual Studio / Rider
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.suo
+
+# Mac / Windows hệ thống
+.DS_Store
+Thumbs.db
+
+# Unity
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Thư mục quản lý version cục bộ
+.vs/
+
+# Crash reports
+sysinfo.txt
+
+# Unity Asset Store
+*.unitypackage
+
+# Ignore tất cả các meta file rác hoặc cache
+*.bak
+*.tmp
+
+# Không ignore các file cần thiết:
+!Assets/
+!Assets/**/*.meta
+!ProjectSettings/
+!ProjectSettings/**/*.asset
+!Packages/
+!Packages/manifest.json
+!Packages/packages-lock.json
